@@ -1,21 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;900&display=swap');
+
 main {
     text-align: center;
 }
+.Barradebusqueda{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
 header {
-    background-color: #EAC926;
+    background-color: var(--colorAmarillo)
 }
-#Barra{
-text-align: center;
-}
-#copi{
+.burger-menu{
+    display:inline-block;
     text-align: center;
+    margin-left: 45%;
+    width:7%;
+    padding:5px;
+    border-radius: 10%;
+    background-color: var(--colorCeleste);
+    color: var(--colorGrisClaro);
+    margin-bottom: 5px;
 }
-#envio{
+.Comprar{
     text-align: center;
+
 }
-#paga{
-    text-align: center;
+ul, li{
+    list-style: none;  
+    padding: 0;
+ }
+body{
+    font-family: var(--tipografia);
+    font-size:small
 }
-#seguridad{
-    text-align: center;
+h3{
+    font-size: var(--titulares);
 }
+.Precio{
+    font-size: var(--precios);
+}
+.Descuento{
+    font-size: var(--descuentos);
+   
+}
+.Footer{
+    font-size: 2em;
+    margin-bottom: 10px;
+color: #1259c3;
+}
+
+:root{
+    --colorAmarillo:#EAC926;
+    --colorAzul: #03264C;
+    --colorCeleste: #1259c3;
+    --colorGrisOscuro: #666;
+    --colorGrisClaro: #ebebeb;
+    --colorVerde: #39b54a;
+    --tipografia: 'Roboto';
+    --cuerpoDeTexto: 12px;
+    --titulares: 24px;
+    --precios: 18px;
+    --descuentos: 16px;
+    --descripciones: 16px;
+     }
