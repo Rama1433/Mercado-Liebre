@@ -10,7 +10,8 @@ footer{
     text-align: center;
 }
 header {
-    background-color: var(--colorAmarillo)
+    background-color: var(--colorAmarillo);
+    
 }
 .burger-menu{
     display:inline-block;
@@ -33,7 +34,10 @@ ul, li{
  }
 body{
     font-family: var(--tipografia);
-    font-size:small
+    font-size:small;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
 }
 h3{
     font-size: var(--titulares);
