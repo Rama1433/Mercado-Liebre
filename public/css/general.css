@@ -1,2 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    --colorAmarillo:#EAC926;
+    --colorAzul: #03264C;
+    --colorCeleste: #1259c3;
+    --colorGrisOscuro: #666;
+    --colorGrisClaro: #ebebeb;
+    --colorVerde: #39b54a;
+    --tipografia: 'Roboto';
+    --cuerpoDeTexto: 12px;
+    --titulares: 24px;
+    --precios: 18px;
+    --descuentos: 16px;
+    --descripciones: 16px;
+     }
+ /* MOBILE */
+@media(max-width: 612px){
+    .descripcion{
+        display: none;
+    }
+    ul{
+        display: none;
+    }      
+    }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;900&display=swap');
+/* TABLET */
+@media (min-width: 768px){
+    article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }   
+    .fa-bars{
+        display: none;
+    }
+}
+/* DESKTOP */
+@media (min-width: 1024px){ 
+    .fa-bars{
+        display: none;
+    }
+    article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    
+ }
+    

@@ -1,0 +1,84 @@
+main {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+body{
+    font-family: var(--tipografia);
+    font-size:small;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+}.detalle{
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+
+    
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+   
+}
+footer{
+    text-align: center;
+}
+.Footer{
+    font-size: 2em;
+    margin-bottom: 10px;
+color: #1259c3;
+}
+.Barradebusqueda{
+    text-align: center;
+}
+ul, li{
+    list-style: none;  
+    padding: 0;
+ }
+.Comprar{
+    text-align: center;
+
+}
+.fa-bars{
+    display:inline-block;
+    text-align: center;
+    margin-left: 45%;
+    width:7%;
+    padding:5px;
+    border-radius: 10%;
+    background-color: var(--colorCeleste);
+    color: var(--colorGrisClaro);
+    margin-bottom: 5px;
+}
+header {
+    background-color: var(--colorAmarillo);
+    
+}
+h3{
+    font-size: var(--titulares);
+}
+.Precio{
+    font-size: var(--precios);
+}
+.Descuento.descripcion{
+    font-size: var(--descuentos);
+   
+}
+.Descuento{
+    color: var(--colorVerde)
+}
+.fa-truck{
+    border: 1px solid var(--colorVerde);
+    border-radius: 50%;
+    color: var(--colorVerde);
+    padding: 5%;
+    font-size: small;
+}
+.copy{
+    text-align: left;
+}
+
