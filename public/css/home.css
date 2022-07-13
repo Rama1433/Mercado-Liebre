@@ -82,3 +82,37 @@ h3{
     text-align: left;
 }
 
+ /* MOBILE */
+ @media(max-width: 612px){
+    .descripcion{
+        display: none;
+    }
+    ul{
+        display: none;
+    }      
+    }
+
+/* TABLET */
+@media (min-width: 768px){
+    article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }   
+    .burger-main{
+        display: none;
+    }
+}
+/* DESKTOP */
+@media (min-width: 1024px){ 
+    .burger-main{
+        display: none;
+    }
+    article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    
+ }
+ @media(min-width: 612px){
+    .burger-main{
+        display: none;
+    }
+}
