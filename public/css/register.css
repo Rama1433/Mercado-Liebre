@@ -1,0 +1,46 @@
+h1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+body{
+    background-color:var(--colorGrisClaro);
+}
+main{
+    margin: 5px;
+}
+.form_register{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    gap: 15px;
+}
+.input_datos{
+    border: none;
+    height: 35px;
+}
+.Intereses{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    justify-content: space-between;
+    gap: 20px;
+}
+.datos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    width: 25%;
+    gap: 10px;
+}
+.perfil{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+}
+.Volver{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}

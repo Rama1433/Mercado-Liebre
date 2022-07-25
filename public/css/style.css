@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;900&display=swap');
 @import './general.css';
-@import './home.css'
+@import './home.css';
+@import './register.css';
+@import './login.css';
 
 
 

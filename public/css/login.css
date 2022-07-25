@@ -1,0 +1,27 @@
+.form_login{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.input_usuario{
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+    height: 30px ;
+    width: 80%;
+    margin-top: 15px;
+   align-self: center;
+}
+.form_button{
+    color: white;
+    background-color: var(--colorCeleste);
+    height: 30px ;
+    width: 80%;
+    border: none;
+    margin-top: 15px;
+    align-self: center;
+}
+footer{
+    margin: 75px;
+}

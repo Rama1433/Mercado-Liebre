@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    margin: 0px;
+    padding: opx;
 }
 :root{
     --colorAmarillo:#EAC926;
