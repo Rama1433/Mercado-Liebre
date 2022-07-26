@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    
 }
 
 .input_usuario{
@@ -14,10 +15,10 @@
    align-self: center;
 }
 .form_button{
-    color: white;
+    text-decoration-color: white;
     background-color: var(--colorCeleste);
     height: 30px ;
-    width: 80%;
+    width: 25%;
     border: none;
     margin-top: 15px;
     align-self: center;

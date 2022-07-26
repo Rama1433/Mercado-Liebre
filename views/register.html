@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
     <script src="https://kit.fontawesome.com/47f954a9fa.js" crossorigin="anonymous"></script>
+    <style>
+        a { text-decoration: none; 
+            color: black;} 
+        </style>
     <title>Registro</title>
 </head>
 <body>
@@ -37,6 +41,16 @@
         <label for="Hogar"><input type="checkbox" name="intereses">Hogar</label>
         <label for="Jugueteria"><input type="checkbox" name="intereses">Jugueteria</label>
         <label for="Vida Sana"><input type="checkbox" name="intereses">Vida Sana</label>
+        <h4>Foto de perfil</h4>
+    <div class="foto_de_perfil">
+        <input class="input_datos" type="file" name="file">
+        <input class="input_datos" type="password" name="password" placeholder="Contraseña">
+        <input class="input_datos" type="password" name="password" placeholder="Repetir Contraseña">
+    </div>
+    <div class="form_button_register">
+        <button class="sumbit" type="submit">Confirmar</button>
+        <button class="reset" type="reset">Cancelar</button>
+    </div>
     </div>
     </form>    
     </main>

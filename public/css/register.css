@@ -44,3 +44,31 @@ main{
     flex-wrap: wrap;
     align-items: flex-start;
 }
+.foto_de_perfil{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+    width: 30%;
+ }
+ .form_button_register{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+ }
+ button{
+    height: 30px;
+    width: 30%;
+ }
+.sumbit{
+    background-color: #1259c3;
+    color: white;
+    border: none;
+}
+.reset{
+    color: white;
+    border: none;
+    background-color: rgb(163, 161, 161);
+}

@@ -8,8 +8,22 @@
    justify-content: space-around;  
     
 }
-.Barradebusqueda{
-    text-align: center;
+.Barradebusqueda form{
+    display: flex;
+    height: 32px;
+    background-color: #FFF;
+    margin: 5px;
+}
+.Barradebusqueda input{
+    border: none;
+    width: 85%;
+    outline: none;
+}
+.Barradebusqueda button{
+    width: 15%;
+    border: none;
+    background-color: #FFF;
+    color: var(--colorGrisOscuro);
 }
 ul{
     list-style: none;
