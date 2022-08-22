@@ -125,10 +125,34 @@ h3{
     right: 20px;
     top: -15px;
     color: var(--colorVerde);
+    transition: 1s;
+}
+article:hover .fa-truck{
+    transform:rotate(90deg) ;
+}
+.desplegable{
+    display: flex;
+    justify-content:flex-start;
+    gap: 5px;
+}
+.descripcion{
+    height: 0;
+    width: 100%;
+    overflow: hidden;
+    transition: 2s;
+}
+article:hover h4{
+    height: 50px;
+    margin-top: 20px;
 }
 .copy{
     text-align: left;
 }
+article:hover{
+    box-shadow: 5px 5px 10px gray;
+
+}
+
 section{
   display:flex;
   flex-wrap: wrap;
@@ -136,12 +160,11 @@ section{
   justify-content: space-around;
   padding: 6%; 
   gap: 15px 0px; 
+  align-content: flex-start;
+
 }
  /* MOBILE */
  @media(max-width: 612px){
-    .descripcion{
-        display: none;
-    }
     ul{
         display: none;
     }      
@@ -153,7 +176,7 @@ section{
      
 
 /* TABLET */
-@media (min-width: 768px){
+@media (max-width: 768px){
     article{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
      }
@@ -163,7 +186,20 @@ section{
     header .logo{
         height: 60px;
     }
-
+    article{
+        margin-left:29px ;
+     }
+    .descripcion{
+        height: 0;
+        width: 100%;
+        overflow: hidden;
+        transition: 2s;
+    }
+    article:hover h4{
+        height: 50px;
+        margin-top: 20px;
+    }
+   
  }
 /* DESKTOP */
 @media (min-width: 1024px){ 
@@ -174,7 +210,9 @@ section{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     
     }
-    
+    section{
+        height: 400px;
+    }
  }
  @media(min-width: 612px){
     .burger-main{
